@@ -34,6 +34,8 @@ config.disable_default_key_bindings = true
 config.keys = {{ key = 'V', mods = 'CTRL', action = act.PasteFrom 'Clipboard' },}
 config.mouse_bindings = mouse_bindings
 
+prefer_egl = true
+
 -- There are mouse binding to mimc Windows Terminal and let you copy
 -- To copy just highlight something and right click. Simple
 mouse_bindings = {
